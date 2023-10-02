@@ -121,3 +121,17 @@ html,body {
     background-position: center;
    background-size: cover;
 }
+
+
+@media(max-width : 500px) {
+
+    #main {
+        flex-direction: column;
+    }
+    #main #left {
+        width: 100%;
+    }
+    #width #right {
+        width: 100%;
+    }
+} 
